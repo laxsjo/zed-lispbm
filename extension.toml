@@ -1,0 +1,7 @@
+id = "lispbm"
+name = "lispBM"
+version = "0.0.1"
+schema_version = 1
+authors = ["Joakim Lundborg <joakim.lundborg@gmail.com>"]
+description = "lispBM"
+repository = "https://github.com/cortex/zed-lispbm"
