@@ -2,6 +2,3 @@ name = "lispBM"
 grammar = "lispbm"
 path_suffixes = ["lisp", "lbm"]
 line_comments = ["; "]
-
-[grammars.lispbm]
-repository = "../tree-sitter-lispbm"
