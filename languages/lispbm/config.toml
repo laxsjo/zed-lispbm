@@ -2,3 +2,8 @@ name = "lispBM"
 grammar = "lispbm"
 path_suffixes = ["lisp", "lbm"]
 line_comments = ["; "]
+brackets = [
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "{", end = "}", close = true, newline = false },
+]
