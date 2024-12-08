@@ -1,10 +1,9 @@
 (symbol) @variable
-(application) @function
+(application name: (symbol) @function)
 (number) @number
 (string) @string
-;["(" ")" "{" "}"] @punctuation.bracket
-
-
-;["(" ")" "[" "]" "{" "}"] @punctuation.bracket
-
-;(list) @punctuation.bracket
+["(" ")" "{" "}"] @punctuation.bracket
+(comment) @comment
+(special) @keyword
+(function_definition name: (symbol) @keyword)
+(arglist (symbol) @variable.special )
