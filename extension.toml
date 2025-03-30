@@ -10,6 +10,5 @@ description = "lispBM"
 repository = "https://github.com/cortex/zed-lispbm"
 
 [grammars.lispbm]
-repository = "file:///home/cortex/Projects/Personal/tree-sitter-lispbm"
-rev = "main"
-#commit = "318a93b1a4b2f67a55ae00b1df7ea5a5ca45a2b9"
+repository = "file:///home/rasmus/projects/misc/tree-sitter-lispbm"
+rev = "feat/directives"
