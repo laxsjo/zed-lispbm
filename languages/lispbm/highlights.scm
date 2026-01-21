@@ -5,9 +5,11 @@
 (directive) @preproc
 (string) @string
 ["(" ")" "{" "}"] @punctuation.bracket
-["defun" "def" "define"] @keyword
+(_ keyword:_ @keyword)
 (comment) @comment
-(special) @keyword
 (function_definition name: (symbol) @function.name)
 (arglist (symbol) @variable.special )
 (ERROR) @warning
+(escape_sequence) @string.escape
+(invalid_escape_sequence) @warning
+(constant_symbol) @constant
