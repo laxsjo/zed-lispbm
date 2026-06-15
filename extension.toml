@@ -10,3 +10,7 @@ repository = "https://github.com/cortex/zed-lispbm"
 repository = "file:///home/cortex/Projects/Personal/tree-sitter-lispbm"
 rev = "main"
 #commit = "318a93b1a4b2f67a55ae00b1df7ea5a5ca45a2b9"
+
+[language_servers.lispbm]
+name = "LispBM Language Server"
+languages = ["lispBM"]

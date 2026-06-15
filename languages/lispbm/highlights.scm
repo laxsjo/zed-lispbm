@@ -9,7 +9,7 @@
 (comment) @comment
 (function_definition name: (symbol) @function.name)
 (arglist (symbol) @variable.special )
-(ERROR) @error
+(ERROR) @number
 (escape_sequence) @string.escape
 (invalid_escape_sequence) @warning
 (constant_symbol) @constant
