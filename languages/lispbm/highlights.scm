@@ -1,6 +1,5 @@
 (symbol) @variable
 (application function: (symbol) @function)
-(application arg: (symbol) @function.argument)
 (number) @number
 (directive) @preproc
 (string) @string
