@@ -1,4 +1,4 @@
-name = "lispBM"
+name = "LispBM"
 grammar = "lispbm"
 path_suffixes = ["lisp", "lbm"]
 line_comments = ["; ", ";; ", ";;; ", ";;;; "]

@@ -1,9 +1,9 @@
 id = "lispbm"
-name = "lispBM"
+name = "LispBM"
 version = "0.0.1"
 schema_version = 1
 authors = ["Joakim Lundborg <joakim.lundborg@gmail.com>"]
-description = "lispBM"
+description = "LispBM"
 repository = "https://github.com/cortex/zed-lispbm"
 
 [grammars.lispbm]
@@ -13,4 +13,4 @@ rev = "main"
 
 [language_servers.lispbm]
 name = "LispBM Language Server"
-languages = ["lispBM"]
+languages = ["LispBM"]
